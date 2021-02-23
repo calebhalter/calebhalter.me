@@ -1,0 +1,1 @@
+cmd_Release/word_transformation.node := c++ -bundle -undefined dynamic_lookup -Wl,-no_pie -Wl,-search_paths_first -mmacosx-version-min=10.7 -arch x86_64 -L./Release -stdlib=libc++  -o Release/word_transformation.node Release/obj.target/word_transformation/src/Graph.o Release/obj.target/word_transformation/src/Node.o Release/obj.target/word_transformation/src/index.o 
