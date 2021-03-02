@@ -1,0 +1,38 @@
+{
+  "../components/visuals/circles": [
+    {
+      "id": "./components/visuals/circles.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/@babel/runtime/helpers/esm/defineProperty.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/p5/lib/p5.min.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/webpack/buildin/global.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./components/visuals/circles.js",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./node_modules/p5/lib/p5.min.js",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./node_modules/webpack/buildin/global.js",
+      "file": "static/chunks/2.js"
+    }
+  ],
+  "./dev/noop": [
+    {
+      "id": "./node_modules/next/dist/client/dev/noop.js",
+      "file": "static/chunks/0.js"
+    }
+  ]
+}
