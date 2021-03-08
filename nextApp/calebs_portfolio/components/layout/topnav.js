@@ -1,12 +1,14 @@
 import React from 'react'
 
+
 export default class Topnav extends React.Component {
     constructor(props) {
         super(props)
         const topnav_items = [
             ['Home', 'index'], 
             ['Portfolio', 'portfolio'], 
-            ['Contact', '#']
+            ['Interactive Code', 'interactive_code'], 
+            ['Contact', 'contact']
         ];
         this.state = {}
         this.state.topnav_list = [];
@@ -21,7 +23,7 @@ export default class Topnav extends React.Component {
     }
     render() {
         return (
-            <nav className="navbar navbar-light navbar-expand-md navigation-clean">
+            <nav className="navbar navbar-dark navbar-expand-md navigation-clean" style={{zIndex: '2'}}>
                 <div className="container">
                     <a className="navbar-brand" href='#'>CalebHalter.me</a>
                     <button data-toggle="collapse" className="navbar-toggler" data-target="#navcol-1">

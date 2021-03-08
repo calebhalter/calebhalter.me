@@ -26,14 +26,14 @@ class p5sketch01 extends React.Component {
     this.state.sketch = sketch;
     sketch.setup = () => {
       sketch.createCanvas(window.innerWidth, window.innerHeight);
-      sketch.background(0,255,255);
+      sketch.background(0);
       sketch.fullscreen();
     }
 
     sketch.draw = () => {
       sketch.strokeWeight(1);
       if (this.props.HD === 'true') {
-        sketch.stroke(255);
+        sketch.stroke(240);
       }
       else {
         sketch.stroke('yellow');
@@ -44,7 +44,7 @@ class p5sketch01 extends React.Component {
       else 
         sketch.noFill()
       if (this.state.i % 3 == 0) {
-        sketch.background(0, 255, 255);
+        sketch.background(0);
         this.state.i = 1;
         this.state.arr.shift();
         for (let j=0; j < this.state.arr.length; j++) {
@@ -58,9 +58,10 @@ class p5sketch01 extends React.Component {
   componentDidMount() {
     this.sketch_export =  new p5(this.circles, this.sketchRef.current);
     window.addEventListener("resize", this.handleResize);
+    console.log(this.props.display)
   }
   render() {
-    return <div style={{position:this.props.display, zIndex: -10, top: 0, marginBottom: '-20px'}} ref={this.sketchRef}></div>;
+    return <div style={{position:this.props.position, zIndex: 0, top: 0, marginBottom: '-20px'}} ref={this.sketchRef}></div>;
   }
 
 }

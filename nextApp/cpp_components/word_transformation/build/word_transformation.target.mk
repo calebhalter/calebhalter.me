@@ -55,7 +55,7 @@ INCS_Debug := \
 	-I/Users/calebhalter/Library/Caches/node-gyp/12.18.3/deps/uv/include \
 	-I/Users/calebhalter/Library/Caches/node-gyp/12.18.3/deps/zlib \
 	-I/Users/calebhalter/Library/Caches/node-gyp/12.18.3/deps/v8/include \
-	-I/Users/calebhalter/Documents/Portfolio/cpp_components/word_transformation/node_modules/node-addon-api
+	-I/Users/calebhalter/Documents/Portfolio/nextApp/cpp_components/word_transformation/node_modules/node-addon-api
 
 DEFS_Release := \
 	'-DNODE_GYP_MODULE_NAME=word_transformation' \
@@ -107,7 +107,7 @@ INCS_Release := \
 	-I/Users/calebhalter/Library/Caches/node-gyp/12.18.3/deps/uv/include \
 	-I/Users/calebhalter/Library/Caches/node-gyp/12.18.3/deps/zlib \
 	-I/Users/calebhalter/Library/Caches/node-gyp/12.18.3/deps/v8/include \
-	-I/Users/calebhalter/Documents/Portfolio/cpp_components/word_transformation/node_modules/node-addon-api
+	-I/Users/calebhalter/Documents/Portfolio/nextApp/cpp_components/word_transformation/node_modules/node-addon-api
 
 OBJS := \
 	$(obj).target/$(TARGET)/src/Graph.o \

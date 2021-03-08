@@ -14,3 +14,83 @@ a {
 * {
   box-sizing: border-box;
 }
+
+html {
+  background-color: black;
+}
+
+div.image-gallery.image-gallery-using-mouse {
+  background-color: transparent;
+
+}
+
+.page-text {
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.col-sm-6.col-md-4.item {
+  padding-right: 5px;
+}
+
+.outer {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin: 80px 0px 80px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  /*whatever width you want*/
+}
+
+.row.articles div a img.img-fluid {
+  object-fit: cover;
+  height: 62%;
+}
+
+@media (max-width:1266px) {
+  .row.articles div a img.img-fluid {
+    height: 50%;
+  }
+}
+
+@media (max-width:1020px) {
+  .row.articles div a img.img-fluid {
+    height: 45%;
+  }
+}
+
+@media (max-width:942px) {
+  .row.articles div a img.img-fluid {
+    height: 40%;
+  }
+}
+
+@media (max-width:835px) {
+  .row.articles div a img.img-fluid {
+    height: 35%;
+  }
+}
+
+@media (max-width:767px) {
+  .row.articles div a img.img-fluid {
+    height: unset;
+  }
+}
+
+.portfolio-frameworks {
+  margin-top: 10px;
+}

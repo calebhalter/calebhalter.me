@@ -180,7 +180,7 @@ std::string Graph::WordSearchMenu(std::string word1, std::string word2) {
     }
     else {
         returnStr +=  "It is possible to transform ";
-        returnStr += word1 + " into " + word2 + ".";
+        returnStr += word1 + " into " + word2 + ". ";
         returnStr +=  "The shortest path is:\n";
         for (int i=0; i < (int)shortestPath.size(); i++) {
             if (i > 0)

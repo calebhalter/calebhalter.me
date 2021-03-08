@@ -1,7 +1,7 @@
 import React from 'react'
-import GalleryItem from './gallery-item'
+import InteractiveItem from './interactive-item'
 import Pos_tagger from '../functional_components/pos_tagger'
-
+import WordTransformation from '../functional_components/word_transformation'
 import { config, Trail } from 'react-spring/renderprops.cjs'
 
 class Gallery extends React.PureComponent {
@@ -11,9 +11,14 @@ class Gallery extends React.PureComponent {
         React.createRef(),
         React.createRef()
       ];
+      let descriptions = {
+        POS: `Using a Hidden Markov Model, this Python script tags the parts of speech for each word in your input sentence`,
+        WordTransform: `This C++ function takes two words as input and finds the smallest number of transformations necessary to \
+                            turn the first word into the second`
+      }
       let elements = [
-        <GalleryItem closeAll={() => this.closeAll(0)} ref={refs[0]} element={<Pos_tagger />} title='POS tagger' description="it'll tag the parts of speech on your stuff " />,
-        <GalleryItem closeAll={() => this.closeAll(1)} ref={refs[1]} element={<Pos_tagger />} title='POS tagger 2'/>
+        <InteractiveItem closeAll={() => this.closeAll(0)} ref={refs[0]} element={<Pos_tagger />} title='POS tagger' description={descriptions['POS']} />,
+        <InteractiveItem closeAll={() => this.closeAll(1)} ref={refs[1]} element={<WordTransformation />} title='Word Transformation' description={descriptions['WordTransform']} />
       ]
       this.state = {
         refs: refs,
@@ -30,7 +35,7 @@ class Gallery extends React.PureComponent {
 
     render() {
       return (
-        <div id='elements'>
+        <div id='elements' style={{zIndex: '1', position: 'relative'}}>
           {this.state.elements}
         </div>
       )
