@@ -36,7 +36,7 @@ class PortfolioProjects extends React.Component {
             ],
         },
         public_ballot: {
-            title: "PublicBallot.org",
+            title: "public ballot",
             languages_frameworks: 'React, Express',
             description: <p style={{color: 'white'}}>
                 I made this app with a friend to give people a clear overview of the elections they are eligible to vote in, 
@@ -58,10 +58,13 @@ class PortfolioProjects extends React.Component {
             ],
         },
         software_dev: {
-            title: "Point Of Service Software Dev Project",
+            title: "Point-Of-Service Software Dev Project",
             languages_frameworks: 'JavaScript',
             description: <p style={{color: 'white'}}>
-                Tu9erkg
+                In a software development class, my group was tasked with the creation of point-of-service for 
+                a burger restaurant. I led a small team in charge of creating a tablet-based ordering system, similar to 
+                one that you may see at a Chili's or Red Robin. Using it, a customer could order items, view the status of 
+                their order, play games, and pay their bill.
             </p>,
             images: [
                 {

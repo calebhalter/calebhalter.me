@@ -67,6 +67,16 @@ div.image-gallery.image-gallery-using-mouse {
   }
 }
 
+.project-name {
+  height: 50px;
+}
+
+@media (max-width:1059px) {
+  .project-name {
+    height: 80px;
+  }
+}
+
 @media (max-width:1020px) {
   .row.articles div a img.img-fluid {
     height: 45%;
@@ -92,5 +102,5 @@ div.image-gallery.image-gallery-using-mouse {
 }
 
 .portfolio-frameworks {
-  margin-top: 10px;
+  margin-top: 20px;
 }
