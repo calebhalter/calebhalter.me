@@ -25,13 +25,13 @@ class PortfolioProjects extends React.Component {
             </p>,
             images: [
                 {
-                original: "api/images/avciso-1.png",
+                original: "api/components/images/avciso-1.png",
                 },
                 {
-                original: "api/images/avciso-2.png",
+                original: "api/components/images/avciso-2.png",
                 },
                 {
-                original: "api/images/avciso-3.png",
+                original: "api/components/images/avciso-3.png",
                 }
             ],
         },
@@ -47,13 +47,13 @@ class PortfolioProjects extends React.Component {
             </p>,
             images: [
                 {
-                    original: "api/images/publicballot-1.png",
+                    original: "api/components/images/publicballot-1.png",
                 },
                 {
-                    original: "api/images/publicballot-2.png",
+                    original: "api/components/images/publicballot-2.png",
                 },
                 {
-                    original: "api/images/publicballot-3.png",
+                    original: "api/components/images/publicballot-3.png",
                 }
             ],
         },
@@ -68,13 +68,13 @@ class PortfolioProjects extends React.Component {
             </p>,
             images: [
                 {
-                    original: "api/images/3444-2.png",
+                    original: "api/components/images/3444-2.png",
                 },
                 {
-                    original: "api/images/3444-1.png",
+                    original: "api/components/images/3444-1.png",
                 },
                 {
-                    original: "api/images/3444-3.png",
+                    original: "api/components/images/3444-3.png",
                 }
             ]
         }

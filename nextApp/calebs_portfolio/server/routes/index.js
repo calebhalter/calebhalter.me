@@ -31,6 +31,12 @@ router.get('/hello/:key', (req, res) => {
     res.send(greetMod.greetHello(req.params.key.toString(), reload, "ME",))
 })
 
+router.get('/images/:photo', (req, res) => {
+    photo = req.params.photo
+    console.log(`${process.env.PWD}/pages/api/images/${photo}`)
+    res.sendFile(`${process.env.PWD}/pages/api/images/${photo}`);
+})
+
 router.get('/word_transformation/:key/:word1/:word2', (req, res) => {
     reload='0';
     var d = new Date();

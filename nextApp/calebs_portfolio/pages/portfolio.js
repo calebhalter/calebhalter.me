@@ -90,17 +90,17 @@ function Home() {
               <div className="row articles" style={{color: "white", width: '100%', padding: '30px'}}>
                 <div className="col-sm-6 col-md-4 item">
                 <h2 className="project-name">StandardUser AvCISO</h2>
-                  <a href="#" style={{zIndex:50}} onClick={() => open_window('avciso')} ><img className="img-fluid" src="api/images/avciso-1.png" /></a>
+                  <a href="#" style={{zIndex:50}} onClick={() => open_window('avciso')} ><img className="img-fluid" src="api/components/images/avciso-1.png" /></a>
                     <h4 className='portfolio-frameworks'>Python Flask, JavaScript</h4>
                 </div>
                 <div className="col-sm-6 col-md-4 item">
                 <h2 className="project-name">public ballot</h2>
-                  <a href="#" style={{zIndex:50}} onClick={() => open_window('public_ballot')} ><img className="img-fluid" src="api/images/publicballot-1.png" /></a>
+                  <a href="#" style={{zIndex:50}} onClick={() => open_window('public_ballot')} ><img className="img-fluid" src="api/components/images/publicballot-1.png" /></a>
                   <h4 className='portfolio-frameworks'>React, Express</h4>
                 </div>
                 <div className="col-sm-6 col-md-4 item">
                 <h2 className="project-name">School POS Project</h2>
-                <a href="#" style={{zIndex:50}} onClick={() => open_window('software_dev')} ><img className="img-fluid" src="api/images/3444-1.png" /></a>
+                <a href="#" style={{zIndex:50}} onClick={() => open_window('software_dev')} ><img className="img-fluid" src="api/components/images/3444-1.png" /></a>
                   <h4 className='portfolio-frameworks'>JavaScript</h4>
                 </div>
               </div>
