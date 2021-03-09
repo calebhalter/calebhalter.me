@@ -95,8 +95,15 @@ div.image-gallery.image-gallery-using-mouse {
   }
 }
 
+.row.articles div {
+  height: 100%;
+}
+
 @media (max-width:767px) {
   .row.articles div a img.img-fluid {
+    height: unset;
+  }
+  .row.articles div {
     height: unset;
   }
   #portfolio-element-div {
