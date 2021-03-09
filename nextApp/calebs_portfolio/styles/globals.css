@@ -58,7 +58,7 @@ div.image-gallery.image-gallery-using-mouse {
 
 .row.articles div a img.img-fluid {
   object-fit: cover;
-  height: 62%;
+  height: 60%;
 }
 
 @media (max-width:1266px) {
