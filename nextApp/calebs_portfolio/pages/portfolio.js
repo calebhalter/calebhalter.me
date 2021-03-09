@@ -89,7 +89,7 @@ function Home() {
         <div className="outer" id='portfolio-main'>
           <div className="middle">
             <div className="inner">
-              <h1 className='page-text' style={{marginBottom: '50px'}}>Web Development Projects</h1>
+              <h1 className='page-text' style={{marginBottom: '50px'}}>Projects</h1>
               {/*<h6 className='page-text'>Take a look at some of my web development projects</h6>*/}
               <div className="row articles" style={{color: "white", width: '100%', padding: '30px'}}>
                 <div className="col-sm-6 col-md-4 item">

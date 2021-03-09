@@ -11,7 +11,6 @@ class PortfolioProjects extends React.Component {
             theComeUp: 0,
             project: 'avciso'
         }
-        console.log("LKFJSLDKFJ")
     }
 
     data = {
@@ -81,7 +80,6 @@ class PortfolioProjects extends React.Component {
     }
 
     open_window = (project) => {
-        console.log("HEY")
         this.setState({
             project: project,
             theComeUp: 1

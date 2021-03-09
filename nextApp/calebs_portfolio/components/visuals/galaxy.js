@@ -10,8 +10,6 @@ class Galaxy extends React.Component {
     this.state = {
       sketch: undefined,
     }
-    console.log("WHAAAT")
-    console.log(Data)
   }
   handleResize = (e) => {
     this.state.sketch.resizeCanvas(window.innerWidth, window.innerHeight, false)
@@ -35,7 +33,6 @@ class Galaxy extends React.Component {
           let x = arr[i][0] * window.innerWidth * 1.5
           sketch.point(x, arr[i][2] * window.innerHeight)
           if (Math.abs(x - sketch.mouseX) ** 2 + Math.abs(arr[i][2] * window.innerHeight - sketch.mouseY) ** 2 <= 10000) {
-            console.log("HEY")
             sketch.strokeWeight(1);
             sketch.line(x, arr[i][2] * window.innerHeight, sketch.mouseX, sketch.mouseY);
             sketch.strokeWeight(10);
