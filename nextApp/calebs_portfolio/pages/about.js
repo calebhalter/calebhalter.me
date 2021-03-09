@@ -34,7 +34,7 @@ function About() {
                     My specialties are Python, C++, and JavaScript, but I love to learn new technologies.
                   </p>
                   <hr></hr>
-                  <h3 className='page-text' style={{marginBottom: '50px'}}>You can contact me at <a style={{color: 'rgb(255, 41, 255)'}} href='mailto: CalebHalter@my.unt.edu'>CalebHalter@my.unt.edu</a></h3>
+                  <h3 className='page-text' style={{marginBottom: '50px'}}>You can contact me at <a style={{color: 'rgb(255, 41, 255)'}} href='mailto: contact@CalebHalter.me'>contact@CalebHalter.me</a></h3>
                 </div>
                 {/*<div className="col-md-6" style={{textAlign: 'left', color: 'white', fontWeight: 'normal'}}>
                   <h1 className='page-text' style={{marginBottom: '50px'}}>Contact me</h1>
