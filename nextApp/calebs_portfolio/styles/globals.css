@@ -101,6 +101,16 @@ div.image-gallery.image-gallery-using-mouse {
   }
 }
 
+@media (max-width:575px) {
+  .project-name {
+    height: 50px;
+  }
+}
+
 .portfolio-frameworks {
   margin-top: 20px;
+}
+
+.row.articles {
+  height: 60vh;
 }

@@ -9,8 +9,8 @@ import { Spring, animated } from 'react-spring/renderprops.cjs'
 import PortfolioProjects from '../components/layout/portfolio-projects'
 import React from 'react'
 
-const Circles = dynamic(
-  () => import('../components/visuals/circles'),
+const Galaxy = dynamic(
+  () => import('../components/visuals/galaxy'),
   {
     ssr: false
   }
@@ -80,7 +80,7 @@ function Home() {
     <div style={{backgroundColor: 'black', }}>
       <Topnav currentPage='Portfolio'></Topnav>
       <section style={{textAlign: "center"}}>
-        {/*<Circles position='fixed' HD='true' />*/}
+        <Galaxy />
 
         <div className="outer" id='portfolio-main'>
           <div className="middle">

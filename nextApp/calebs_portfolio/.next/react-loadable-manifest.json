@@ -1,7 +1,11 @@
 {
-  "../components/visuals/circles": [
+  "../components/visuals/galaxy": [
     {
-      "id": "./components/visuals/circles.js",
+      "id": "./components/visuals/galaxy.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./components/visuals/output.js",
       "file": "static/chunks/1.js"
     },
     {
@@ -17,7 +21,11 @@
       "file": "static/chunks/1.js"
     },
     {
-      "id": "./components/visuals/circles.js",
+      "id": "./components/visuals/galaxy.js",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./components/visuals/output.js",
       "file": "static/chunks/2.js"
     },
     {

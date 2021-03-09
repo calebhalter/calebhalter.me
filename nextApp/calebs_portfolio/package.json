@@ -29,6 +29,7 @@
     "p5": "^1.2.0",
     "popper.js": "^1.16.1",
     "react": "^16.13.1",
+    "react-bootstrap": "^1.5.1",
     "react-image-gallery": "^1.0.9",
     "react-rebound": "^0.8.3",
     "react-springs": "^1.1.0",
