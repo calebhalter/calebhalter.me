@@ -107,7 +107,6 @@ function Home() {
             </div>
           </div>
         </div>
-
         <PortfolioProjects ref={fullscreen_ref} window={'portfolio-main'} />
       </section>
     </div>

@@ -9,7 +9,7 @@ export default class Topnav extends React.Component {
             ['Portfolio', 'portfolio'], 
             /*['Interactive Code', 'interactive_code'], */
             ['About', 'about'],
-            ['Contact', 'contact'],
+            /*['Contact', 'contact'],*/
         ];
         this.state = {}
         this.state.topnav_list = [];

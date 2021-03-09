@@ -1,42 +1,46 @@
 {
-  "../components/visuals/galaxy": [
+  "../components/visuals/circles": [
     {
-      "id": "./components/visuals/galaxy.js",
-      "file": "static/chunks/1.js"
+      "id": "NCWt",
+      "file": "static/chunks/0df2afdd.d8fac45a3de856b32d4f.js"
     },
     {
-      "id": "./components/visuals/output.js",
-      "file": "static/chunks/1.js"
+      "id": "6qnJ",
+      "file": "static/chunks/16.1136fb76ceb3ce191750.js"
     },
     {
-      "id": "./node_modules/@babel/runtime/helpers/esm/defineProperty.js",
-      "file": "static/chunks/1.js"
+      "id": "rePB",
+      "file": "static/chunks/16.1136fb76ceb3ce191750.js"
     },
     {
-      "id": "./node_modules/p5/lib/p5.min.js",
-      "file": "static/chunks/1.js"
-    },
-    {
-      "id": "./node_modules/webpack/buildin/global.js",
-      "file": "static/chunks/1.js"
-    },
-    {
-      "id": "./components/visuals/galaxy.js",
-      "file": "static/chunks/2.js"
-    },
-    {
-      "id": "./components/visuals/output.js",
-      "file": "static/chunks/2.js"
-    },
-    {
-      "id": "./node_modules/p5/lib/p5.min.js",
-      "file": "static/chunks/2.js"
+      "id": "yLpj",
+      "file": "static/chunks/16.1136fb76ceb3ce191750.js"
     }
   ],
-  "./dev/noop": [
+  "../components/visuals/galaxy": [
     {
-      "id": "./node_modules/next/dist/client/dev/noop.js",
-      "file": "static/chunks/0.js"
+      "id": "NCWt",
+      "file": "static/chunks/0df2afdd.d8fac45a3de856b32d4f.js"
+    },
+    {
+      "id": "wycz",
+      "file": "static/chunks/0afd4837.60a7023537e31e56e2df.js"
+    },
+    {
+      "id": "q6i6",
+      "file": "static/chunks/17.7295019a9fc2d2d1f4b2.js"
+    },
+    {
+      "id": "rePB",
+      "file": "static/chunks/17.7295019a9fc2d2d1f4b2.js"
+    },
+    {
+      "id": "yLpj",
+      "file": "static/chunks/17.7295019a9fc2d2d1f4b2.js"
+    },
+    {
+      "id": "q6i6",
+      "file": "static/chunks/18.d81f844d3f20ea219536.js"
     }
   ]
 }

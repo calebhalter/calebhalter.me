@@ -8,7 +8,7 @@ class PortfolioElement extends React.Component {
     render() {
         return (
             <center>
-                <div style={{width: '60%'}}>
+                <div id="portfolio-element-div" style={{width: '75%'}}>
                     <ImageGallery items={this.props.images} showPlayButton={false} showThumbnails={false}/>
                 </div>
             </center>

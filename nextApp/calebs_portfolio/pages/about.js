@@ -17,9 +17,10 @@ function About() {
     <Galaxy />
         <div className="outer" id='portfolio-main'>
           <div className="middle"  style={{padding: '0px 30px 0px 30px'}}>
-            <div className="inner row">
-                <div className='col-md-6'>
-                  <h1 className='page-text' style={{marginBottom: '50px'}}>Caleb Halter</h1>
+            <center>
+            <div className="inner row" >
+                <div className='col-md-12'>
+                  <h1 className='page-text' style={{marginBottom: '50px'}}>About me</h1>
                   {/*<h6 className='page-text'>Take a look at some of my web development projects</h6>*/}
                   <p style={{color: 'white', fontSize: 'X-large'}}>
                     I am a full-stack developer with a passion for beautiful and efficient webapps. 
@@ -27,11 +28,20 @@ function About() {
                     the opportunity comes. <hr style={{color: 'white', border: '1px solid'}}></hr>
                     My specialties are Python, C++, and JavaScript, but I love to learn new technologies.
                   </p>
+                  <hr></hr>
+                  <h3 className='page-text' style={{marginBottom: '50px'}}>You can contact me at <a style={{color: 'rgb(255, 41, 255)'}} href='mailto: CalebHalter@my.unt.edu'>CalebHalter@my.unt.edu</a></h3>
                 </div>
-                <div className="col-md-6" style={{display: 'flex', alignContent: 'center'}}>
-                  <img style={{objectFit: 'cover'}} className="img-fluid" src="api/components/images/caleb-1.png" />
-                </div>
+                {/*<div className="col-md-6" style={{textAlign: 'left', color: 'white', fontWeight: 'normal'}}>
+                  <h1 className='page-text' style={{marginBottom: '50px'}}>Contact me</h1>
+                  <h3 style={{fontWeight: 'normal'}}>Your Name</h3>
+                  <input style={{width: '100%'}} type='text'></input><hr></hr>
+                  <h3 style={{fontWeight: 'normal'}}>Your email</h3>
+                  <input style={{width: '100%'}} type='text'></input><hr></hr>
+                  <h3 style={{fontWeight: 'normal'}}>Message</h3>
+                  <textarea style={{width: '100%', height: '25vh'}}></textarea><hr></hr>
+                </div>*/}
             </div>
+            </center>
           </div>
         </div>
       </section>

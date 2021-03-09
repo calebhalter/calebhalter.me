@@ -1,9 +1,9 @@
 const express = require('express')
 const next = require('next')
 const bodyParser = require('body-parser')
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 80
 const dev = process.env.NODE_DEV !== 'production' //true false
-const nextApp = next({ dev })
+const nextApp = next({ })
 const handle = nextApp.getRequestHandler() //part of next config
 // native addon works!!!!!!!!!!!!!
 //const greetMod =  require('../../cpp_components/test/build/Release/greet')

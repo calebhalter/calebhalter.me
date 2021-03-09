@@ -118,7 +118,7 @@ class PortfolioProjects extends React.Component {
                             <div style={{width: '100%', textAlign: 'right'}}><i onClick={() => this.close_window()}  style={{cursor: 'pointer', color: 'white', fontSize: 'XX-large'}} class="bi bi-x"></i></div>
                             <PortfolioElement images={this.data[this.state.project].images} />
                             <h2 className='page-text'>{this.data[this.state.project].title}</h2>
-                            <h3 style={{color: 'white'}}>{this.data[this.state.project].languages_frameworks}</h3>
+                            <h3 style={{color: 'silver'}}>{this.data[this.state.project].languages_frameworks}</h3>
                             {this.data[this.state.project].description}
                         </animated.div>
                 }

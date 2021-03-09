@@ -99,6 +99,9 @@ div.image-gallery.image-gallery-using-mouse {
   .row.articles div a img.img-fluid {
     height: unset;
   }
+  #portfolio-element-div {
+    width: 100% !important;
+  }
 }
 
 @media (max-width:575px) {
