@@ -78,6 +78,10 @@ function Home() {
 
   return (
     <div style={{backgroundColor: 'black', }}>
+      <Head>
+        <title>CalebHalter.me</title>
+        <link rel="icon" href="/api/images/favicon.png" />      
+      </Head>
       <Topnav currentPage='Portfolio'></Topnav>
       <section style={{textAlign: "center"}}>
         <Galaxy />

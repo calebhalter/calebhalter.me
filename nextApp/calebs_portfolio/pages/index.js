@@ -29,6 +29,10 @@ class Home extends React.Component {
   render() {
     return (
     <div>
+      <Head>
+        <title>CalebHalter.me</title>
+        <link rel="icon" href="/api/images/favicon.png" />      
+      </Head>
       <Topnav currentPage='Home'></Topnav>
       <section style={{textAlign: "center"}}>
         <Circles position='fixed' HD='true' />

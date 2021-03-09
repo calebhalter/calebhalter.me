@@ -1,6 +1,7 @@
 import Topnav from '../components/layout/topnav'
 import React from 'react'
 import dynamic from 'next/dynamic'
+import Head from 'next/head'
 
 const Galaxy = dynamic(
   () => import('../components/visuals/galaxy'),
@@ -12,6 +13,10 @@ const Galaxy = dynamic(
 function About() {
   return (
     <div style={{backgroundColor: 'black', }}>
+      <Head>
+        <title>CalebHalter.me</title>
+        <link rel="icon" href="/api/images/favicon.png" />      
+      </Head>
       <Topnav currentPage='About'></Topnav>
       <section style={{textAlign: "center"}}>
     <Galaxy />

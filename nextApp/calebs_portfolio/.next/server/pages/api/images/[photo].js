@@ -88,44 +88,31 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = "./pages/api/images/[photo].js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 3:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("Ozcs");
-
-
-/***/ }),
-
-/***/ "Ozcs":
+/***/ "./pages/api/images/[photo].js":
+/*!*************************************!*\
+  !*** ./pages/api/images/[photo].js ***!
+  \*************************************/
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var express__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("ZEFf");
-/* harmony import */ var express__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(express__WEBPACK_IMPORTED_MODULE_0__);
- // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-
-/* harmony default export */ __webpack_exports__["default"] = ((req, res) => {
-  const {
-    query: {
-      photo
-    }
-  } = req;
-  console.log(`${process.env.PWD}/pages/api/images/${photo}`);
-  res.sendFile(`${process.env.PWD}/pages/api/images/${photo}`);
-});
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var express__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! express */ \"express\");\n/* harmony import */ var express__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(express__WEBPACK_IMPORTED_MODULE_0__);\n // Next.js API route support: https://nextjs.org/docs/api-routes/introduction\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ((req, res) => {\n  const {\n    query: {\n      photo\n    }\n  } = req;\n  console.log(`${process.env.PWD}/pages/api/images/${photo}`);\n  res.sendFile(`${process.env.PWD}/pages/api/images/${photo}`);\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9wYWdlcy9hcGkvaW1hZ2VzL1twaG90b10uanM/M2IzNyJdLCJuYW1lcyI6WyJyZXEiLCJyZXMiLCJxdWVyeSIsInBob3RvIiwiY29uc29sZSIsImxvZyIsInByb2Nlc3MiLCJlbnYiLCJQV0QiLCJzZW5kRmlsZSJdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0NBRUE7O0FBRWUsZ0VBQUNBLEdBQUQsRUFBTUMsR0FBTixLQUFjO0FBQzNCLFFBQU07QUFDSkMsU0FBSyxFQUFFO0FBQUVDO0FBQUY7QUFESCxNQUVGSCxHQUZKO0FBR0FJLFNBQU8sQ0FBQ0MsR0FBUixDQUFhLEdBQUVDLE9BQU8sQ0FBQ0MsR0FBUixDQUFZQyxHQUFJLHFCQUFvQkwsS0FBTSxFQUF6RDtBQUNBRixLQUFHLENBQUNRLFFBQUosQ0FBYyxHQUFFSCxPQUFPLENBQUNDLEdBQVIsQ0FBWUMsR0FBSSxxQkFBb0JMLEtBQU0sRUFBMUQ7QUFDRCxDQU5EIiwiZmlsZSI6Ii4vcGFnZXMvYXBpL2ltYWdlcy9bcGhvdG9dLmpzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgcmVzcG9uc2UgfSBmcm9tICdleHByZXNzJ1xuXG4vLyBOZXh0LmpzIEFQSSByb3V0ZSBzdXBwb3J0OiBodHRwczovL25leHRqcy5vcmcvZG9jcy9hcGktcm91dGVzL2ludHJvZHVjdGlvblxuXG5leHBvcnQgZGVmYXVsdCAocmVxLCByZXMpID0+IHtcbiAgY29uc3Qge1xuICAgIHF1ZXJ5OiB7IHBob3RvIH0sXG4gIH0gPSByZXFcbiAgY29uc29sZS5sb2coYCR7cHJvY2Vzcy5lbnYuUFdEfS9wYWdlcy9hcGkvaW1hZ2VzLyR7cGhvdG99YClcbiAgcmVzLnNlbmRGaWxlKGAke3Byb2Nlc3MuZW52LlBXRH0vcGFnZXMvYXBpL2ltYWdlcy8ke3Bob3RvfWApO1xufSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/api/images/[photo].js\n");
 
 /***/ }),
 
-/***/ "ZEFf":
+/***/ "express":
+/*!**************************!*\
+  !*** external "express" ***!
+  \**************************/
+/*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = require("express");
+eval("module.exports = require(\"express\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vZXh0ZXJuYWwgXCJleHByZXNzXCI/MjJmZSJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSIsImZpbGUiOiJleHByZXNzLmpzIiwic291cmNlc0NvbnRlbnQiOlsibW9kdWxlLmV4cG9ydHMgPSByZXF1aXJlKFwiZXhwcmVzc1wiKTsiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///express\n");
 
 /***/ })
 
